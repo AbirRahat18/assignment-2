@@ -1,0 +1,110 @@
+
+.font-style {font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight:400;
+    font-style: normal;}
+
+    /* body-img */
+    body{background-image: url(assets/bg.png);}
+
+    /* nav-bar-starts */
+
+
+
+    .nav{display: flex;justify-content: space-between;width: 1150px;margin: 0 auto;align-items: center;}
+
+    .logo-item{display: flex;gap: 5px;}
+
+    .img{width: 60px;height: 60px;margin-top: 15px;}
+
+    #logos-name{font-size: 30px;font-weight: bold;}
+
+    .home{}
+
+    .nav-items{display: flex;gap: 20px;}
+
+    .main-item{list-style: none;}
+
+    .anchor-item{text-decoration: none;color: rgb(22, 21, 21);}
+
+    .nav-contact-item{
+        width: 150px;
+        height: 50px;
+        background-color: rgba(254, 163, 1, 1);
+        border: none;border-radius: 12px;
+        display: flex;
+        justify-content: center
+        ;align-items: center;
+        }
+
+    .contact-item{}
+
+    .contact{list-style: none; 
+        }
+
+    .color{color: white;font-size: 22px;font-weight: 700;width: 100%;text-align: center;text-decoration: none;
+        }
+
+        #hambuger{display:none;}    
+   
+    /* nav-bar-end */
+
+    /* banner-starts */
+    .banner{display: flex;width: 1300px;align-items: center;justify-content: center;}
+
+    .banner-part-1{width: 650px;}
+
+    .heading{font-weight: bold;font-size: 50px;margin-bottom: 0px;}
+
+    .orange{color: rgba(254, 163, 1, 1);}
+
+    .black{color: rgba(17, 17, 17, 1);}
+
+    .blue{color: rgba(1, 172, 253, 1);}
+
+    .banner-description{font-size: 20px;font-weight: 400;}
+
+    .btn{width: 190px;height: 50px;border-radius: 12px;font-size: 20px;font-weight: bold;background-color: rgba(17, 17, 17, 1);border: none;color: white;}
+
+    .banner-part-2{width: 450px;}
+
+    .banner-img{width: 95%;}
+
+
+    /* section-1 */
+
+    h3{text-align: center;font-size: 45px;font-weight: bold;}
+
+   .card{display: flex;justify-content:center;gap: 30px;}
+   
+  .img-1{margin-top: 15px;}
+
+   .all-card{width:350px;height: 450px;border-radius: 18px;text-align: center;padding: 15px;}
+
+   .card-1{background-color: rgba(222, 245, 255, 1);}
+
+   .card-img{margin:auto;margin-top: 30px; display: block;}
+
+   .card-heading{font-size: 24.5px;font-weight: bold;}
+
+   .card-description{font-size: 15.5px;font-weight: 600;color: rgba(128, 128, 128, 1);margin-bottom: 40px;}
+
+   .card-btn{font-size: 15.5px;font-weight: bold;text-decoration: none;color: black;}
+
+   .card-2{background-color: rgba(255, 244, 220, 1);}
+    
+   .card-3{background-color: rgba(242, 232, 255, 1);}
+
+   .card-btn{}
+
+   .tutu{text-align: center;margin-top: 30px;display: flex;justify-content: center;gap: 10px;}
+
+   .card-btn-tutu{ display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgba(254, 163, 1, 1);
+   width: 60px;
+   height: 60px;
+   border-radius: 50%;
+   text-decoration: none;
+font-size: 24px;color: white;}
