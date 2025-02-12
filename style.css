@@ -191,3 +191,14 @@
    .wow{font-size: 24px;font-weight: bold;}
 
    .she-mmh{font-size: 26px;font-weight: bold;}
+
+   /* media */
+
+  
+ @media screen and (max-width: 576px){
+    #hambuger{color: black;display: block;}
+    .home{display: none;}
+     #logos-name{display: none;}
+    .color{display: none;}
+    .nav-contact-item{display: none;}
+}
